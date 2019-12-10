@@ -4,4 +4,12 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>ContactUs</servlet-name>
+    <servlet-class>FormSubmit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContactUs</servlet-name>
+    <url-pattern>/SubmitResult</url-pattern>
+  </servlet-mapping>
 </web-app>

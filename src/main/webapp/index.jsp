@@ -44,7 +44,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link "  id ="Apply"href="#" tabindex="-1">APPLY NOW</a>
+                    <a class="nav-link "  id ="Apply"href="ContactUs.jsp" tabindex="-1">Contact Us</a>
                 </li>
             </ul>
         </div>

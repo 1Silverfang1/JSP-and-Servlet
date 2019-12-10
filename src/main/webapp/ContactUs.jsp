@@ -46,7 +46,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link "  id ="Apply"href="#" tabindex="-1">APPLY NOW</a>
+                <a class="nav-link "  id ="Apply"href="index.jsp" tabindex="-1">Home</a>
             </li>
         </ul>
     </div>
@@ -58,17 +58,17 @@
 <br><br>
 <section>
     <div class="ContactForm mt-5">
-        <form action="SubmitResult">
+        <form action="SubmitResult" method="get">
     <p>Your Name</p>
-        <input type="text" required autocomplete="off" placeholder="Enter your Name" id="NameField">
+        <input type="text" required autocomplete="off" placeholder="Enter your Name" id="NameField" name="Name">
         <br>
         <p>Your mobile number</p>
-        <input type="text" required autocomplete="off" PLACEHOLDER="+91" id="MobileField">
+        <input type="text" required autocomplete="off" PLACEHOLDER="+91" id="MobileField" name="Mobile">
         <br>
         <p>Your email address</p>
-        <input type="text" required autocomplete="off" placeholder="Enter your Mail Address" id="EmailField">
+        <input type="text" required autocomplete="off" placeholder="Enter your Mail Address" id="EmailField" name="Email">
         <p>Message</p>
-        <textarea name="MessageField" id="MessageField" placeholder="Your Comments" autocomplete="off" rows="5"></textarea>
+        <textarea name="MessageField" id="MessageField" placeholder="Your Comments" name="Message" autocomplete="off" rows="5"></textarea>
         <br> <br>
           <input class="mx-auto submitButton" type="submit" value="Submit My feeback">
         <br>

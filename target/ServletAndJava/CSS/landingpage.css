@@ -17,6 +17,10 @@
 {
     display: none;
 }
+body
+{
+    height: 100%;
+}
 .section2
 {
     width: 95%;
