@@ -46,6 +46,7 @@
     margin-left: 0;
     margin-right: 0;
 }
+.required:after { content:" *"; }
 body
 {
     font-size: 14px;

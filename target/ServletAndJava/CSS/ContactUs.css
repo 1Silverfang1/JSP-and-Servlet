@@ -1,0 +1,54 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.submitButton
+{
+    color: #4cae4c;
+}
+#badge-small-image
+{
+    width: 50px;
+    position: relative;
+    cursor: pointer;font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    box-sizing: border-box;
+}
+.ContactForm
+{
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+}
+#MessageField
+{
+    border: none;
+    font-size: 18px;
+    width: 100%;
+}
+.buttons
+{
+    width: 100%;
+    text-align: center;
+}
+#NameField, #MobileField ,#EmailField
+{
+    width: 100%;
+    border: none;
+    background: none;
+    font-size: 18px;
+    color: #5e5e5e;
+    border-bottom: 1px solid black;
+}
+body
+{
+    font-size: 14px;
+    font-family: Lato,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
