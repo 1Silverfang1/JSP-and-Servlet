@@ -29,7 +29,7 @@ public class FormSubmit extends HttpServlet {
         response.getWriter().println("<p>Form Submitted</p>");
         response.getWriter().println("<a href='index.jsp'>You are Being Redirected If Not Redirected Click here</a>");
         response.getWriter().println("</body></html>");
-        response.sendRedirect(request.getContextPath() + "/index.jsp");
+        response.setHeader("Refresh", "2;url=./index.jsp");
     }
 
 }
