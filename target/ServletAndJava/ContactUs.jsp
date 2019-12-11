@@ -63,7 +63,7 @@
         <input type="text" required autocomplete="off" placeholder="Enter your Name" id="NameField" name="Name">
         <br>
         <p>Your mobile number</p>
-        <input type="text" required autocomplete="off" PLACEHOLDER="+91" id="MobileField" name="Mobile">
+        <input type="number" required autocomplete="off" PLACEHOLDER="+91" id="MobileField" name="Mobile">
         <br>
         <p>Your email address</p>
         <input type="text" required autocomplete="off" placeholder="Enter your Mail Address" id="EmailField" name="Email">

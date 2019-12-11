@@ -7,21 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98e2a6df-5902-439f-81cf-f4d543c96f6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FormSubmit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ORMForms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/ORMForms.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ORMForms.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServletAndJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ServletAndJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/landingpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/landingpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FormSubmit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FormSubmit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ORMForms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ORMForms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/ContactUs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ContactUs.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/CSS/landingpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/CSS/landingpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/ContactUs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/ContactUs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/FormSubmit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/FormSubmit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FormSubmit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FormSubmit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,42 +47,15 @@
         <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test: database" type="162271b6:PgImplModel$Database" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="CSS File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -223,12 +193,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1512a7fa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c5bbda2e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1512a7fa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2c489cb8" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c5bbda2e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@29e6a347" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -246,7 +216,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575952559418</updated>
-      <workItem from="1575952563417" duration="16095000" />
+      <workItem from="1575952563417" duration="25903000" />
+      <workItem from="1576038619272" duration="4776000" />
     </task>
     <servers />
   </component>
@@ -258,7 +229,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

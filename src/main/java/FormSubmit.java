@@ -12,20 +12,24 @@ public class FormSubmit extends HttpServlet {
         String mobile= request.getParameter("Mobile");
         String email= request.getParameter("Email");
         String message= request.getParameter("MessageField");
-        response.getWriter().println(name+mobile+email+message);
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Form");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
         ORMForms ormForms = new ORMForms();
         ormForms.setEmail(email);
         ormForms.setMessage(message);
-        ormForms.setMobileNumber(Integer.parseInt(mobile));
+        ormForms.setMobileNumber(mobile);
         ormForms.setName(name);
         entityManager.persist(ormForms);
         entityManager.getTransaction().commit();
         entityManagerFactory.close();
         entityManager.close();
 
+        response.getWriter().println("<html><body>");
+        response.getWriter().println("<p>Form Submitted</p>");
+        response.getWriter().println("<a href='index.jsp'>You are Being Redirected If Not Redirected Click here</a>");
+        response.getWriter().println("</body></html>");
+        response.sendRedirect(request.getContextPath() + "/index.jsp");
     }
 
 }

@@ -8,8 +8,17 @@
     <servlet-name>ContactUs</servlet-name>
     <servlet-class>FormSubmit</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>getContactData</servlet-name>
+    <servlet-class>FormRetrieve</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getContactData</servlet-name>
+    <url-pattern>/getData</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>ContactUs</servlet-name>
     <url-pattern>/SubmitResult</url-pattern>
   </servlet-mapping>
+
 </web-app>
