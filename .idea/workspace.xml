@@ -6,26 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98e2a6df-5902-439f-81cf-f4d543c96f6f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FormRetrieve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FormRetrieve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FormSubmit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FormSubmit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ORMForms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ContactForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/landingpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/landingpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ContactUs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ContactUs.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/RetrieveData.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/RetrieveData.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/CSS/landingpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/CSS/landingpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/ContactUs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/ContactUs.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/RetrieveData.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/RetrieveData.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/FormRetrieve.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/FormRetrieve.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/FormSubmit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/FormSubmit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FormRetrieve.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FormRetrieve.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FormSubmit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FormSubmit.class" afterDir="false" />
-    </list>
+    <list default="true" id="98e2a6df-5902-439f-81cf-f4d543c96f6f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,11 +81,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/LayoutTemplates" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
   </component>
