@@ -11,49 +11,13 @@
 </head>
 <body>
 <div>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-blue bg-white">
-        <a class="navbar-brand" href="#"><img src="frenzzy_files/logoWeb1x_1_thzngg.png" al>
-        </a>
-        <img id="badge-small-image" src="frenzzy_files/badge_small.png">
-        <span style="display:inline-block"><span id="brand-suffix-header">NBFC-P2P</span>
-          <br>
-          <span  id="brand-suffix-sub">Registered with RBI</span></span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">BORROW <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">LOGIN</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        INVEST
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Invest Now</a>
-                        <a class="dropdown-item" href="#">Invest Later</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Invest Never</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link "  id ="Apply"href="ContactUs.jsp" tabindex="-1">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<jsp:include page="LayoutTemplates/LayoutHeader.jsp"></jsp:include>
     <br>
     <section>
         <div id ="background" class="mt-5">
             <img id="imagebg" src="frenzzy_files/background.jpeg">
         </div>
+
     </section>
     <br>
     <section>
@@ -233,18 +197,11 @@
         <p class="text-center">The company is having a valid Certificate of Registration dated June 28, 2018 issued by the Reserve Bank of India under Section 45 IA of the Reserve Bank of
             <br>India Act, 1934.
             <br>However, the RBI does not accept any responsibility or guarantee about the present position as to the financial soundness of the company or for the correctness <br> any of the statements or representations made or opinions expressed by the company and for repayment of deposits / discharge of liabilities by the company. </p>
-        </p>
     </section>
 </div>
 <br><br><br><br>
-<footer>
-    <p class="text-center">        finzy is owned and operated by Bridge Fintech Solutions Private Limited (CIN : U74999MH2016PTC286583).
-        Â© 2019-2020 finzy. All rights reserved.
-    </p>
-</footer>
+<jsp:include page="./LayoutTemplates/LayoutFooter.jsp"></jsp:include>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 
 </html>

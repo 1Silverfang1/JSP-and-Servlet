@@ -4,7 +4,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class ORMForms {
+public class ContactForm {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

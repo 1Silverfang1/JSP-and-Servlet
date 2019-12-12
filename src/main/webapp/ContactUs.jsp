@@ -13,44 +13,7 @@
     <link rel="stylesheet" href="CSS/ContactUs.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg fixed-top navbar-blue bg-white">
-    <a class="navbar-brand" href="#"><img src="frenzzy_files/logoWeb1x_1_thzngg.png" al>
-    </a>
-    <img id="badge-small-image" src="frenzzy_files/badge_small.png">
-    <span style="display:inline-block"><span id="brand-suffix-header">NBFC-P2P</span>
-          <br>
-          <span  id="brand-suffix-sub">Registered with RBI</span></span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">BORROW <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">LOGIN</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    INVEST
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Invest Now</a>
-                    <a class="dropdown-item" href="#">Invest Later</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Invest Never</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link "  id ="Apply"href="index.jsp" tabindex="-1">Home</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+<jsp:include page="LayoutTemplates/LayoutHeader.jsp"></jsp:include>
 <br><br><br>
 
 <h1 class="text-center text-primary mt-5">Do you have a question or feedback?</h1>
@@ -58,7 +21,7 @@
 <br><br>
 <section>
     <div class="ContactForm mt-5">
-        <form action="SubmitResult" method="get">
+        <form action="SubmitResult" class="text-success" method="get">
     <p>Your Name</p>
         <input type="text" required autocomplete="off" placeholder="Enter your Name" id="NameField" name="Name">
         <br>
@@ -70,13 +33,13 @@
         <p>Message</p>
         <textarea name="MessageField" id="MessageField" placeholder="Your Comments" name="Message" autocomplete="off" rows="5"></textarea>
         <br> <br>
-          <input class="mx-auto submitButton" type="submit" value="Submit My feeback">
+
+          <input class="text-center submitButton" style="margin-left: 35%" type="submit" value="Submit My feeback">
         <br>
         </form>
     </div>
 </section>
+<br><br><br>
+<jsp:include page="LayoutTemplates/LayoutFooter.jsp"></jsp:include>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </html>
