@@ -26,6 +26,6 @@
 <br><br><br><br>
 <hr>
 </div>
-<jsp:include page="LayoutTemplates/LayoutFooter.jsp"></jsp:include>
+<jsp:include page="<%=FOOTER_FILE%>"></jsp:include>
 </body>
 </html>

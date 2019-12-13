@@ -1,4 +1,4 @@
-<%--
+<%@ page import="static com.servlet.orm.Constants.*" %><%--
   Created by IntelliJ IDEA.
   User: root
   Date: 12/12/19
@@ -9,16 +9,16 @@
 <html>
 <head>
     <title>Login Here</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/LoginPage.css">
+    <link rel="stylesheet" href= <%=BOOTSTRAP_CSS%>>
+    <link rel="stylesheet" href=<%=LOGIN_PAGE_CSS%>>
 </head>
 <body>
-<jsp:include page="LayoutTemplates/LayoutHeader.jsp"></jsp:include>
+<jsp:include page="<%=HEADER_FILE%>"></jsp:include>
 <br><br><br><br><br><br>
 
 
     <div class="loginFormDiv">
-        <form action="Login" class="text-center loginForm" method="post">
+        <form action= "<%=LOGIN_PAGE%>" class="text-center loginForm" method="<%=POST_METHOD%>">
             <p class="text-left text-primary">Your  Username</p>
             <input type="text" required autocomplete="off" placeholder="Enter your Username" id="UsernameField" name="Username">
             <br><br><br>
@@ -34,14 +34,14 @@
     </div>
 <br><br><br>
 <%
-    String errorMessage = (String) request.getSession().getAttribute("error");
+    String errorMessage = (String) request.getSession().getAttribute(ERROR_ATTRIBUTE);
     if(errorMessage!=null)
     {
         response.getWriter().println("<br><br><br><span class='text-center text-warning'> <h2>"+errorMessage+"</h2> </span>" );
-        request.getSession().removeAttribute("error");
+        request.getSession().removeAttribute(ERROR_ATTRIBUTE);
    //     request.getSession().invalidate();
     }
 %>
-<jsp:include page="LayoutTemplates/LayoutFooter.jsp"></jsp:include>
+<jsp:include page="<%=FOOTER_FILE%>"></jsp:include>
 </body>
 </html>

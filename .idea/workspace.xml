@@ -8,35 +8,21 @@
   <component name="ChangeListManager">
     <list default="true" id="98e2a6df-5902-439f-81cf-f4d543c96f6f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdminTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/orm/AdminTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ContactForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/orm/ContactForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FormRetrieve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/orm/FormRetrieve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FormSubmit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/orm/FormSubmit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/orm/LoginForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/LoginPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/LoginPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlet/orm/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/orm/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlet/orm/FormRetrieve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/orm/FormRetrieve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlet/orm/FormSubmit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/orm/FormSubmit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlet/orm/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/orm/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlet/orm/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/orm/Logout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/ContactUs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ContactUs.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/LayoutTemplates/LayoutHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/LayoutTemplates/LayoutHeader.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Login Page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/LoginPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/LoginPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/LoginPage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/RetrieveData.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/RetrieveData.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/CSS/LoginPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/CSS/LoginPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ServletAndJava/LayoutTemplates/LayoutHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/LayoutTemplates/LayoutHeader.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/Login Page.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ServletAndJava/RetrieveData.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/RetrieveData.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/AdminTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/ContactForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/FormRetrieve.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/FormSubmit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/LoginForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ServletAndJava/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AdminTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ContactForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FormRetrieve.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FormSubmit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ServletAndJava.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -247,6 +233,7 @@
       <workItem from="1576038619272" duration="12027000" />
       <workItem from="1576123933091" duration="8294000" />
       <workItem from="1576202025663" duration="5620000" />
+      <workItem from="1576210004042" duration="10936000" />
     </task>
     <servers />
   </component>

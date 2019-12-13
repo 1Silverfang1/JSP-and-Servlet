@@ -1,3 +1,4 @@
+<%@ page import="static com.servlet.orm.Constants.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -5,17 +6,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/landingpage.css">
+    <link rel="stylesheet" href= <%=BOOTSTRAP_CSS%>>
+    <link rel="stylesheet" href=<%=LANDING_PAGE_CSS%>>
     <title>Landing Page</title>
 </head>
 <body>
 <div>
-<jsp:include page="LayoutTemplates/LayoutHeader.jsp"></jsp:include>
+    <jsp:include page="<%=HEADER_FILE%>"></jsp:include>
     <br>
     <section>
         <div id ="background" class="mt-5">
-            <img id="imagebg" src="frenzzy_files/background.jpeg">
+            <img id="imagebg" src=<%=BACkGROUND_IMG_SRC%>>
         </div>
 
     </section>
@@ -26,17 +27,17 @@
             <p id ="firstHeadingText" class="text-center">finzy connects personal loan borrowers with investors</p>
             <div class="row py-3">
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class=" mx-auto text-center circlebg"><img class ="mt-4"src="images/iconfirst.png" alt=""></div>
+                    <div class=" mx-auto text-center circlebg"><img class ="mt-4"src=<%=DIGITAL_LOGO%> ></div>
                     <p class="text-center mt-5"> Digitally Connect borrowers <br>
                         and investors</p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 ">
-                    <div class=" mx-auto text-center circlebg"><img class ="mt-4" src="images/iconsecond.png" class ="icons" alt=""></div>
+                    <div class=" mx-auto text-center circlebg"><img class ="mt-4" src=<%=DOCUMENTATION_LOGO%> class="icons"></div>
                     <p class="text-center mt-5"> Documentation &
                         <br>            Disbursement of Loans</p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="mx-auto text-center circlebg"><img class ="mt-4" src="images/iconthird.png" class ="icons" alt=""></div>
+                    <div class="mx-auto text-center circlebg"><img class ="mt-4" src=<%=EMI_LOGO%> class="icons"></div>
                     <p  class="text-center mt-5"> Automated monthly EMI <br>
                         collection & transfer</p>
                 </div>
@@ -50,8 +51,8 @@
     </p>
     <p class="text-center">You can get your loan funded in as little as 48 hours </p>
     <br><br><br>
-    <div class="text-center mt-5"><img class="desktopImages" src="frenzzy_files/borrower_2div_ghvugv.png" alt="">
-        <img class="mx-auto mobileImage" src="frenzzy_files/borrowermid_fuyhtd.png" alt="">
+    <div class="text-center mt-5"><img class="desktopImages" src=<%=DESKTOP_BG_IMG%>>
+        <img class="mx-auto mobileImage" src=<%=MOBILE_BG_IMG%>>
     </div>
 </section>
     <section >
@@ -62,7 +63,7 @@
         <br>
         <div class="cards row py-3 text-center mx-auto">
             <div class="card mx-auto col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-                <img src="frenzzy_files/amit_ihskhe.jpg" class="card-img-top" alt="...">
+                <img src=<%=CEO_IMG%> class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Amit More</h5>
                     <p>Founder & CEO</p>
@@ -71,7 +72,7 @@
                 </div>
             </div>
             <div class="card mx-auto col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-                <img src="frenzzy_files/abhinandan_aukpdl.jpg" class="card-img-top" alt="...">
+                <img src=<%=CTO_IMG%> class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-right">Abhinandan Sangam</h5>
                     <p>Co-founder & CTO</p>
@@ -80,7 +81,7 @@
                 </div>
             </div>
             <div class="card mx-auto col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-                <img src="frenzzy_files/vishwas_ztkchg.jpg" class="card-img-top" alt="...">
+                <img src=<%=CMO_IMG%> class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Vishwas Dixit</h5>
                     <p>Co-founder & CMO</p>
@@ -89,7 +90,7 @@
                 </div>
             </div>
             <div class="card mx-auto col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-                <img src="frenzzy_files/apoorv_mt9lo0.jpg" class="card-img-top" alt="...">
+                <img src=<%=CIO_IMG%> class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Apoorv Gawde</h5>
                     <p>CIO & Head of Product</p>
@@ -107,7 +108,7 @@
             <div class="cards p-3 mb-2 bg-light text-dark">
                 <div class="row py-3 text-center mx-auto">
                     <div class="card mx-auto col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-                        <img src="frenzzy_files/uma-maheshwari.png" class="card-img-overlay" alt="...">
+                        <img src=<%=CUSTOMER_UMA%> class="card-img-overlay" alt="...">
                         <div class="card-body">
                             <h5 class="card-title text-right">Uma Maheshwari</h5>
                             <p class="text-right">Bangalore</p>
@@ -116,7 +117,7 @@
                         </div>
                     </div>
                     <div class="card mx-auto col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-                        <img src="frenzzy_files/bikram-chatterjee.png" class="card-img-overlay" alt="...">
+                        <img src=<%=CUSTOMER_BIKRAM%> class="card-img-overlay" alt="...">
                         <div class="card-body">
                             <h5 class="card-title text-right">Bikram Chatterjee</h5>
                             <p class="text-right">Bangalore</p>
@@ -125,7 +126,7 @@
                         </div>
                     </div>
                     <div class="card mx-auto col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-                        <img src="frenzzy_files/l-giri-naidu.png" class="card-img-overlay" alt="...">
+                        <img src=<%=CUSTOMER_NAIDU%> class="card-img-overlay" alt="...">
                         <div class="card-body">
                             <h5 class="card-title text-right">L Giri Naidu</h5>
                             <p class="text-right">Bangalore</p>
@@ -145,21 +146,21 @@
             <div class="cards row py-3 text-center mx-auto">
 
                 <div class="card mx-auto" style="width: 18rem;">
-                    <div class="card-header bg-transparent border-success"> <img src="frenzzy_files/your-story_kcwnva.png"></div>
+                    <div class="card-header bg-transparent border-success"> <img src=<%=YOUR_STORY_IMG%>></div>
                     <div class="card-body">
                         <p class="card-text">
                             Finzy wants to change how India sees lending</p>
                     </div>
                 </div>
                 <div class="card mx-auto" style="width: 18rem;">
-                    <div class="card-header bg-transparent border-success"> <img src="frenzzy_files/times-of-india_iarzlk.png"></div>
+                    <div class="card-header bg-transparent border-success"> <img src=<%=TIMES_OF_INDIA_IMG%>></div>
                     <div class="card-body">
                         <p class="card-text">
                             Finzy secures $2.3 million in pre-series A funding</p>
                     </div>
                 </div>
                 <div class="card mx-auto" style="width: 18rem;">
-                    <div class="card-header bg-transparent border-success"> <img class="w-100" src="frenzzy_files/indian-express_skrqdd.png"></div>
+                    <div class="card-header bg-transparent border-success"> <img class="w-100" src=<%=INDIAN_EXPRESS_IMG%>></div>
                     <div class="card-body">
                         <p class="card-text">finzy receives NBFC-P2P certification from RBI</p>
                     </div>
@@ -170,20 +171,20 @@
             <div class="cards row py-3 text-center mx-auto">
 
                 <div class="card mx-auto" style="width: 18rem;">
-                    <div class="card-header bg-transparent border-success"> <img class="w-75" src="frenzzy_files/economic-times_msl8fl.png"></div>
+                    <div class="card-header bg-transparent border-success"> <img class="w-75" src=<%=ECONOMIC_TIMES_IMG%>></div>
                     <div class="card-body">
                         <p class="card-text">
                             Millenials tap fintech startups for holidays</p>
                     </div></div>
                 <div class="card mx-auto" style="width: 18rem;">
-                    <div class="card-header bg-transparent border-success"> <img class="w-100"src="frenzzy_files/bw-ci-world_dfcyk3.png"></div>
+                    <div class="card-header bg-transparent border-success"> <img class="w-100"src=<%=BWCI_WORRLD_IMG%>></div>
                     <div class="card-body">
                         <p class="card-text">
                             Finzy to Trigger Pan-India Channel Tie-ups for P2P Lending Visibilityys</p>
                     </div>
                 </div>
                 <div class="card mx-auto" style="width: 18rem;">
-                    <div class="card-header bg-transparent border-success"> <img class="w-100" src="frenzzy_files/tech-herald_bnpn3o.png"></div>
+                    <div class="card-header bg-transparent border-success"> <img class="w-100" src=<%=TECH_HERALD_IMG%>></div>
                     <div class="card-body">
                         <p class="card-text">Finzy achieves zero defaults in the first year of operations</p>
                     </div>
@@ -200,7 +201,7 @@
     </section>
 </div>
 <br><br><br><br>
-<jsp:include page="./LayoutTemplates/LayoutFooter.jsp"></jsp:include>
+<jsp:include page="<%=FOOTER_FILE%>"></jsp:include>
 </body>
 
 

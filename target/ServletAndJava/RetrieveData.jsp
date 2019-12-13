@@ -1,19 +1,20 @@
 <%@ page import="java.util.List" %>
 <%@page import="com.servlet.orm.ContactForm" %>
+<%@ page import="static com.servlet.orm.Constants.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Data Retrieve</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/RetrieveData.css">
+    <link rel="stylesheet" href= <%=BOOTSTRAP_CSS%>>
+    <link rel="stylesheet" href= <%=RETRIEVE_DATA_CSS%>>
 </head>
 <body>
-<jsp:include page="LayoutTemplates/LayoutHeader.jsp"></jsp:include>
+<jsp:include page="<%=HEADER_FILE%>"></jsp:include>
 <br><br>
 <%
-    response.setHeader("Cache-Control","no-cache, no-store, must-revalidate");
-    if(session.getAttribute("SessionId")==null|| session.getAttribute("admin")==null) {
-        response.sendRedirect("./LoginPage.jsp");
+    response.setHeader(NO_CACHE,CACHE_CONTROL);
+    if(session.getAttribute(SESSION_ID_ATTRIBUTE)==null|| session.getAttribute(ADMIN_ATTRIBUTE)==null) {
+        response.sendRedirect(LOGIN_PAGE_URL);
     }
 %>
 <br><br><br>
@@ -28,9 +29,7 @@
         <TH>message</TH>
     </TR>
     <%
-        List<ContactForm> resultList= (List<ContactForm>) request.getSession().getAttribute("contactListResult");
-//        if(resultList==null)
-//            response.sendRedirect("./LoginPage.jsp");
+        List<ContactForm> resultList= (List<ContactForm>) request.getSession().getAttribute(FORM_RESULT);
         if (resultList!=null) {
             for (ContactForm curRow : resultList) { %>
     <TR>
@@ -46,13 +45,13 @@
 </div>
 <hr>
 <div class="Logout">
-<form action="Logout" method="post">
-    <input type="submit" value="Logout">
+<form action="<%=LOGOUT_USER%>" method="<%=POST_METHOD%>">
+    <input type="<%=SUBMIT_TYPE%>" value="<%=LOGOUT_VALUE%>">
 </form>
 </div>
 <br><br>
 <div id ="footer">
-<jsp:include page="LayoutTemplates/LayoutFooter.jsp"></jsp:include>
+<jsp:include page="<%=FOOTER_FILE%>"></jsp:include>
 </div>
 </body>
 </html>

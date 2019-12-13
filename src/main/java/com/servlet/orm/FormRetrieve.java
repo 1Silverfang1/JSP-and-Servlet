@@ -16,6 +16,9 @@ import java.io.Console;
 import java.io.IOException;
 import java.util.List;
 
+import static com.servlet.orm.Constants.FORM_RESULT;
+import static com.servlet.orm.Constants.RETRIEVE_PAGE;
+
 public class FormRetrieve extends HttpServlet {
 
     public void doGet(HttpServletRequest request , HttpServletResponse response) throws IOException, ServletException {
@@ -34,7 +37,7 @@ public class FormRetrieve extends HttpServlet {
        // requestDispatcher.forward(request,response);
 
        //response.getWriter().println("results");
-      request.getSession().setAttribute("contactListResult",results);
-       response.sendRedirect("./RetrieveData.jsp");
+      request.getSession().setAttribute(FORM_RESULT,results);
+       response.sendRedirect(RETRIEVE_PAGE);
     }
 }

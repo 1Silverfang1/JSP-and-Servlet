@@ -1,8 +1,9 @@
+<%@ page import="static com.servlet.orm.Constants.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <nav class="navbar navbar-expand-lg fixed-top navbar-blue bg-white">
-    <a class="navbar-brand" href="#"><img src="./frenzzy_files/logoWeb1x_1_thzngg.png" al>
+    <a class="navbar-brand" href=<%=LAYOUT_INDEX_PATH%>><img src=<%=NAV_LOGO%> al>
     </a>
-    <img id="badge-small-image" src="./frenzzy_files/badge_small.png">
+    <img id="badge-small-image" src=<%=BADGE_LOGO%>>
     <span style="display:inline-block"><span id="brand-suffix-header">NBFC-P2P</span>
           <br>
           <span  id="brand-suffix-sub">Registered with RBI</span></span>
@@ -12,11 +13,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="/ServletAndJava_war_exploded/index.jsp">HOME<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href=<%=LAYOUT_INDEX_PATH%>>HOME<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/ServletAndJava_war_exploded/LoginPage.jsp">LOGIN</a>
+                <a class="nav-link " id="adminLogin" href=<%=LAYOUT_LOGIN_PAGE%>>LOGIN</a>
+                </li>
+            <li>
+                <form id="logoutUser"action="<%=LOGOUT_USER%>"method=<%=POST_METHOD%>>
+                    <input type="submit" value="logout">
+                </form>
             </li>
+            <%
+            //request.getSession().getAttribute()
+            %>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     INVEST
@@ -29,7 +38,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link " id ="Apply" href="./ContactUs.jsp" tabindex="-1">CONTACT US</a>
+                <a class="nav-link " id ="Apply" href=<%=CONTACT_US_PAGE%> tabindex="-1">CONTACT US</a>
             </li>
         </ul>
     </div>
