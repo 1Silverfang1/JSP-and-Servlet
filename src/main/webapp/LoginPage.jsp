@@ -1,4 +1,4 @@
-<%@ page import="static com.servlet.orm.Constants.*" %><%--
+<%@ page import="static Servlet.Constants.*" %><%--
   Created by IntelliJ IDEA.
   User: root
   Date: 12/12/19
