@@ -1,3 +1,5 @@
+package com.servlet.orm;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -43,6 +45,10 @@ public class ContactForm {
 
     public void setMobileNumber(String mobileNumber) {
         this.mobileNumber = mobileNumber;
+    }
+
+    public String getMobileNumber() {
+        return mobileNumber;
     }
 
     @Override

@@ -6,14 +6,16 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="static com.servlet.orm.Constants.*" %>
+
 <html>
 <head>
     <title>Contact Us Form</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href= <%=bootstrapCss%>>
     <link rel="stylesheet" href="CSS/ContactUs.css">
 </head>
 <body>
-<jsp:include page="LayoutTemplates/LayoutHeader.jsp"></jsp:include>
+<jsp:include page=<%=HEADER_FILE%>></jsp:include>
 <br><br><br>
 
 <h1 class="text-center text-primary mt-5">Do you have a question or feedback?</h1>

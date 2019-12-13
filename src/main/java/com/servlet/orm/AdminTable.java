@@ -1,3 +1,5 @@
+package com.servlet.orm;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 @Entity

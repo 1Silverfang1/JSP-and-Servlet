@@ -6,16 +6,24 @@
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
     <servlet-name>ContactUs</servlet-name>
-    <servlet-class>FormSubmit</servlet-class>
+    <servlet-class>com.servlet.orm.FormSubmit</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.servlet.orm.Logout</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>LoginServlet</servlet-name>
-    <servlet-class>LoginForm</servlet-class>
+    <servlet-class>com.servlet.orm.LoginForm</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>getContactData</servlet-name>
-    <servlet-class>FormRetrieve</servlet-class>
+    <servlet-class>com.servlet.orm.FormRetrieve</servlet-class>
   </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>LoginServlet</servlet-name>
     <url-pattern>/Login</url-pattern>

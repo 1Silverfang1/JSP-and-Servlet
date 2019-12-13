@@ -21,7 +21,7 @@
 <h2 class="text-center text-warning"> You Have Entered Wrong Details</h2>
 <p class="text-center">You are being redirected to Home page</p>
 <%
-    response.setHeader("Refresh", "3;url=./index.jsp");
+    response.setHeader("Refresh", "3;url=./LoginPage.jsp");
 %>
 <br><br><br><br>
 <hr>

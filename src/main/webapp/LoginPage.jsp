@@ -17,8 +17,8 @@
 <br><br><br><br><br><br>
 
 
-    <div class="mt-5 loginFormDiv">
-        <form action="Login" class="mt-5 text-center loginForm" method="post">
+    <div class="loginFormDiv">
+        <form action="Login" class="text-center loginForm" method="post">
             <p class="text-left text-primary">Your  Username</p>
             <input type="text" required autocomplete="off" placeholder="Enter your Username" id="UsernameField" name="Username">
             <br><br><br>
@@ -33,6 +33,15 @@
         </form>
     </div>
 <br><br><br>
+<%
+    String errorMessage = (String) request.getSession().getAttribute("error");
+    if(errorMessage!=null)
+    {
+        response.getWriter().println("<br><br><br><span class='text-center text-warning'> <h2>"+errorMessage+"</h2> </span>" );
+        request.getSession().removeAttribute("error");
+   //     request.getSession().invalidate();
+    }
+%>
 <jsp:include page="LayoutTemplates/LayoutFooter.jsp"></jsp:include>
 </body>
 </html>
