@@ -1,5 +1,6 @@
-<%@ page import="static Servlet.Constants.*" %>
+<%@ page import="static Constants.Constants.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="static Constants.URLConstants.*" %>
 <nav class="navbar navbar-expand-lg fixed-top navbar-blue bg-white">
     <a class="navbar-brand" href=<%=LAYOUT_INDEX_PATH%>><img src=<%=NAV_LOGO%> al>
     </a>

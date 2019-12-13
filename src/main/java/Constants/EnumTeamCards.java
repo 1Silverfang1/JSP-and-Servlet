@@ -1,7 +1,6 @@
 package Constants;
 
-import static Servlet.Constants.*;
-
+import static Constants.URLConstants.*;
 public enum EnumTeamCards {
 
     CEO("Amit More","Founder & CEO","Amit brings vision, business strategy and core financial sector domain knowledge to Finzy. Amit is an expert in the Indian Banking & Financial Services industry with over 16 years of experience across ICICI Bank, Credit Suisse AG and Edelweis", CEO_IMG),

@@ -1,6 +1,5 @@
 package Constants;
-
-import static Servlet.Constants.*;
+import static Constants.URLConstants.*;
 
 public enum EnumFinzyWorks
 {

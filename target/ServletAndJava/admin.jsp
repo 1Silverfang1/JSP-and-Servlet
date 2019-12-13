@@ -1,4 +1,5 @@
-<%@ page import="static Servlet.Constants.*" %>
+<%@ page import="static Constants.Constants.*" %>
+<%@ page import="static Constants.URLConstants.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

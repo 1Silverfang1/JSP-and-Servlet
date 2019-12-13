@@ -1,5 +1,8 @@
 package Servlet;
 
+import Constants.Constants;
+import OrmEntity.ContactForm;
+import static Constants.URLConstants.*;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -33,6 +36,6 @@ public class FormRetrieve extends HttpServlet {
 
        //response.getWriter().println("results");
       request.getSession().setAttribute(Constants.FORM_RESULT,results);
-       response.sendRedirect(Constants.RETRIEVE_PAGE);
+       response.sendRedirect(RETRIEVE_PAGE);
     }
 }

@@ -5,8 +5,9 @@
   Time: 10:21 AM
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page import="static Constants.URLConstants.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="static Servlet.Constants.*" %>
+<%@ page import="static Constants.Constants.*" %>
 
 <html>
 <head>
@@ -23,7 +24,7 @@
 <br><br>
 <section>
     <div class="ContactForm mt-5">
-        <form action="<%=SUBMIT_FEEDBACK%>" class="text-success" method="get">
+        <form action="<%=SUBMIT_FEEDBACK%>" class="text-success" method="post">
     <p>Your Name</p>
         <input type="text" required autocomplete="off" placeholder="Enter your Name" id="NameField" name="Name">
         <br>

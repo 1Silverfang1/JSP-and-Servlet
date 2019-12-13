@@ -1,17 +1,26 @@
 package Servlet;
 
+import OrmEntity.ContactForm;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-import static Servlet.Constants.*;
+import static Constants.Constants.*;
+import static Constants.URLConstants.CONTACT_US_PAGE;
 
 public class FormSubmit extends HttpServlet {
-    public void doGet(HttpServletRequest request , HttpServletResponse  response) throws IOException {
+    public void doGet(HttpServletRequest request , HttpServletResponse  response) throws ServletException, IOException {
+        RequestDispatcher requestDispatcher= request.getRequestDispatcher(CONTACT_US_PAGE);
+        requestDispatcher.forward(request,response);
+    }
+    public void doPost(HttpServletRequest request , HttpServletResponse  response) throws IOException, ServletException {
         String name= request.getParameter(NAME);
         String mobile= request.getParameter(MOBILE_NUMBER);
         String email= request.getParameter(EMAIL);
@@ -28,13 +37,11 @@ public class FormSubmit extends HttpServlet {
         entityManager.getTransaction().commit();
         entityManagerFactory.close();
         entityManager.close();
-
-        response.getWriter().println(HEAD_FOR_SUBMIT);
-        response.getWriter().println("<br><br><br><br><h1 class='text-center text-primary'>Form Submitted</h1>");
-        response.getWriter().println("<a  href='index.jsp' class='text-center'>You are Being Redirected If Not Redirected Click here</a>");
-        response.getWriter().println("<iframe class='mx-auto' src=\"https://giphy.com/embed/3oEjI6SIIHBdRxXI40\" width=\"200\" height=\"200\" frameBorder=\"0\" class=\"giphy-embed\" allowFullScreen></iframe><p><a href=\"https://giphy.com/gifs/mashable-3oEjI6SIIHBdRxXI40\"></a></p>");
-        response.getWriter().println(BODY_FOR_SUBMIT);
-        response.setHeader("Refresh", "1;url=./index.jsp");
+        request.getSession().setAttribute("Form","Submitted");
+        response.sendRedirect("./FormSubmitted.jsp");
+//        request.setAttribute("Form","Submitted");
+//        RequestDispatcher requestDispatcher= request.getRequestDispatcher("./FormSubmitted.jsp");
+//        requestDispatcher.forward(request,response);
     }
 
 }

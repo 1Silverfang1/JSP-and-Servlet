@@ -1,6 +1,6 @@
 package Constants;
 
-import static Servlet.Constants.*;
+import static Constants.URLConstants.*;
 
 public enum EnumMediaCards {
     YOUR_STORY("Finzy wants to change how India sees lending",YOUR_STORY_IMG),

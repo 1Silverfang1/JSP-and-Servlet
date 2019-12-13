@@ -1,6 +1,7 @@
 <%@ page import="java.util.List" %>
-<%@page import="Servlet.ContactForm" %>
-<%@ page import="static Servlet.Constants.*" %>
+<%@page import="OrmEntity.ContactForm" %>
+<%@ page import="static Constants.Constants.*" %>
+<%@ page import="static Constants.URLConstants.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

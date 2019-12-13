@@ -1,4 +1,5 @@
-<%@ page import="static Servlet.Constants.*" %><%--
+<%@ page import="static Constants.Constants.*" %>
+<%@ page import="static Constants.URLConstants.*" %><%--
   Created by IntelliJ IDEA.
   User: root
   Date: 12/12/19
@@ -15,9 +16,17 @@
 <body>
 <jsp:include page="<%=HEADER_FILE%>"></jsp:include>
 <br><br><br><br><br><br>
-
-
     <div class="loginFormDiv">
+        <span><p class="text-warning"><%
+            String errorMessage = (String) request.getAttribute(ERROR_ATTRIBUTE);
+            if(errorMessage!=null)
+            { %>
+            <%=errorMessage%>
+             <%
+
+            }
+                 request.removeAttribute(ERROR_ATTRIBUTE);
+        %></p></span>
         <form action= "<%=LOGIN_PAGE%>" class="text-center loginForm" method="<%=POST_METHOD%>">
             <p class="text-left text-primary">Your  Username</p>
             <input type="text" required autocomplete="off" placeholder="Enter your Username" id="UsernameField" name="Username">
@@ -33,15 +42,7 @@
         </form>
     </div>
 <br><br><br>
-<%
-    String errorMessage = (String) request.getSession().getAttribute(ERROR_ATTRIBUTE);
-    if(errorMessage!=null)
-    {
-        response.getWriter().println("<br><br><br><span class='text-center text-warning'> <h2>"+errorMessage+"</h2> </span>" );
-        request.getSession().removeAttribute(ERROR_ATTRIBUTE);
-   //     request.getSession().invalidate();
-    }
-%>
+
 <jsp:include page="<%=FOOTER_FILE%>"></jsp:include>
 </body>
 </html>

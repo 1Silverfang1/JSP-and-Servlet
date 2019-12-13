@@ -1,8 +1,11 @@
 package Servlet;
 
+import OrmEntity.AdminTable;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -10,10 +13,13 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-import static Servlet.Constants.*;
-
+import static Constants.Constants.*;
+import static Constants.URLConstants.*;
 public class LoginForm extends HttpServlet {
-//    public void doGet()
+    public void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws ServletException, IOException {
+        RequestDispatcher requestDispatcher= httpServletRequest.getRequestDispatcher(LOGIN_PAGE_URL);
+        requestDispatcher.forward(httpServletRequest,httpServletResponse);
+    }
 
     public void doPost(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws IOException, ServletException {
         String name = httpServletRequest.getParameter(USERNAME);
@@ -24,8 +30,9 @@ public class LoginForm extends HttpServlet {
         entityManager.getTransaction().begin();
         AdminTable adminTable = entityManager.find(AdminTable.class, name);
         if (adminTable == null) {
-            httpServletRequest.getSession().setAttribute(ERROR_ATTRIBUTE,ERROR_MESSAGE);
-            httpServletResponse.sendRedirect(LOGIN_PAGE_URL);
+            httpServletRequest.setAttribute(ERROR_ATTRIBUTE,ERROR_MESSAGE);
+            RequestDispatcher requestDispatcher= httpServletRequest.getRequestDispatcher(LOGIN_PAGE_URL);
+            requestDispatcher.forward(httpServletRequest,httpServletResponse);
         } else {
             String Administrator = adminTable.getUsername();
             String Password = adminTable.getPassword();
@@ -37,13 +44,12 @@ public class LoginForm extends HttpServlet {
                 session.setAttribute(ADMIN_ATTRIBUTE,Administrator);
                 httpServletResponse.sendRedirect(ADMIN_PAGE);
             }
-                else {
-
-                httpServletRequest.getSession().setAttribute(ERROR_ATTRIBUTE, ERROR_MESSAGE);
-                httpServletResponse.sendRedirect(LOGIN_PAGE_URL);
+                else
+                    {
+                        httpServletRequest.setAttribute(ERROR_ATTRIBUTE,ERROR_MESSAGE);
+                RequestDispatcher requestDispatcher= httpServletRequest.getRequestDispatcher(LOGIN_PAGE_URL);
+                requestDispatcher.forward(httpServletRequest,httpServletResponse);
             }
-            //     RequestDispatcher requestDispatcher= httpServletRequest.getRequestDispatcher("./LoginPage.jsp");
-            //    requestDispatcher.forward(httpServletRequest,httpServletResponse);
         }
     }
 }

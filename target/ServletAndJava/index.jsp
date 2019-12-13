@@ -1,8 +1,9 @@
-<%@ page import="static Servlet.Constants.*" %>
+<%@ page import="static Constants.Constants.*" %>
 <%@ page import="Constants.EnumReviewCards" %>
 <%@ page import="Constants.EnumTeamCards" %>
 <%@ page import="Constants.EnumMediaCards" %>
 <%@ page import="Constants.EnumFinzyWorks" %>
+<%@ page import="static Constants.URLConstants.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">

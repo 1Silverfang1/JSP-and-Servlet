@@ -1,10 +1,14 @@
 package Servlet;
 
+import Constants.Constants;
+
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+
+import static Constants.URLConstants.LOGIN_PAGE_URL;
 
 public class Logout extends HttpServlet {
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -12,6 +16,6 @@ public class Logout extends HttpServlet {
         session.removeAttribute(Constants.ADMIN_ATTRIBUTE);
         session.removeAttribute(Constants.SESSION_ID_ATTRIBUTE);
         session.invalidate();
-        response.sendRedirect(Constants.LOGIN_PAGE_URL);
+        response.sendRedirect(LOGIN_PAGE_URL);
     }
 }
