@@ -12,13 +12,12 @@
 <br><br><br><br><br><br><br><br>
 <div class="text-center">
     <%
-        if(request.getSession().getAttribute("Form")==null)
-        {
-            request.getSession().removeAttribute("Form");
-            response.sendRedirect(CONTACT_US_PAGE);
+        if(request.getSession().getAttribute("Form")==null) {
+            response.sendRedirect(SUBMIT_FEEDBACK);
         }
-
+        request.getSession().removeAttribute("Form");
     %>
+
 <img src="images/success.jpg" class= "warning" alt="">
 <h2 class="text-center text-success"> You Have Successfully Submitted the form</h2>
 <p class="text-center text-success">We are thankful for your time and will be reaching out to you soon</p>

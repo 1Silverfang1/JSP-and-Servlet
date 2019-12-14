@@ -1,5 +1,6 @@
 package Servlet;
 
+import Encryption.bcrypt;
 import OrmEntity.AdminTable;
 
 import javax.persistence.EntityManager;
@@ -26,8 +27,9 @@ public class RegisterAdmin extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        bcrypt encryption= new bcrypt();
         String name= req.getParameter(NAME);
-        String password= req.getParameter(PASSWORD);
+        String password= encryption.generateHashedPassword(req.getParameter(PASSWORD));
         String email= req.getParameter(EMAIL);
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory(PERSISTANCE_UNIT);
         EntityManager entityManager = entityManagerFactory.createEntityManager();

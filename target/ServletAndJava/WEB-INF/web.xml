@@ -34,7 +34,7 @@
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>ContactUs</servlet-name>
-    <url-pattern>/SubmitResult</url-pattern>
+    <url-pattern>/ContactForm</url-pattern>
   </servlet-mapping>
 
 </web-app>

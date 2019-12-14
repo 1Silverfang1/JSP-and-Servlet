@@ -14,7 +14,7 @@
         if(request.getAttribute("RegisterMessage")!=null)
         {
     %>
-    <h1 class="text-center text-warning"><%=request.getAttribute("RegisterMessage")%></h1>
+    <h2 class="text-center text-warning"><%=request.getAttribute("RegisterMessage")%></h2>
     <%
         }
     %>

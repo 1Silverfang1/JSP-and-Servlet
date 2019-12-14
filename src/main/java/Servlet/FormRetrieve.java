@@ -2,6 +2,8 @@ package Servlet;
 
 import Constants.Constants;
 import OrmEntity.ContactForm;
+
+import static Constants.Constants.LOGIN_PAGE;
 import static Constants.URLConstants.*;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -10,6 +12,7 @@ import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -19,7 +22,12 @@ import java.util.List;
 
 public class FormRetrieve extends HttpServlet {
 
-    public void doGet(HttpServletRequest request , HttpServletResponse response) throws IOException, ServletException {
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        resp.sendRedirect(LOGIN_PAGE);
+    }
+
+    public void doPost(HttpServletRequest request , HttpServletResponse response) throws IOException, ServletException {
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Form");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
@@ -36,6 +44,7 @@ public class FormRetrieve extends HttpServlet {
 
        //response.getWriter().println("results");
       request.getSession().setAttribute(Constants.FORM_RESULT,results);
-       response.sendRedirect(RETRIEVE_PAGE);
+        RequestDispatcher requestDispatcher= request.getRequestDispatcher(RETRIEVE_PAGE);
+        requestDispatcher.forward(request,response);
     }
 }

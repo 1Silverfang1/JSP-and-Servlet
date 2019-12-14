@@ -9,7 +9,7 @@ public  static final String
             ERROR_MESSAGE="Email or Password do not match!",
             FEEDBACK="MessageField",
             LOGIN_PAGE="Login",
-            SUBMIT_FEEDBACK="SubmitResult",
+            SUBMIT_FEEDBACK="ContactForm",
             LOGOUT_USER="Logout",
             SESSION_ID_ATTRIBUTE="SessionId",
             NAME="Name",

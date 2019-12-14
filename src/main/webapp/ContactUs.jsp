@@ -22,6 +22,9 @@
 <h1 class="text-center text-primary mt-5">Do you have a question or feedback?</h1>
 <p class="text-center">Send us a message and we will get back to you.</p>
 <br><br>
+<%
+    response.setHeader(NO_CACHE,CACHE_CONTROL);
+%>
 <section>
     <div class="ContactForm mt-5">
         <form action="<%=SUBMIT_FEEDBACK%>" class="text-success" method="post">

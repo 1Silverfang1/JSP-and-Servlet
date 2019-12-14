@@ -21,7 +21,7 @@ public class URLConstants {
             CIO_IMG="frenzzy_files/apoorv_mt9lo0.jpg",
             CUSTOMER_UMA="frenzzy_files/uma-maheshwari.png",
             CONTACT_US_CSS="CSS/ContactUs.css",GET_RESULT="getData",
-            LAYOUT_INDEX_PATH="/ServletAndJava_war_exploded/index.jsp",
+            LAYOUT_INDEX_PATH="./",
             CUSTOMER_BIKRAM="frenzzy_files/bikram-chatterjee.png",
             CUSTOMER_NAIDU="frenzzy_files/l-giri-naidu.png",
             YOUR_STORY_IMG="frenzzy_files/your-story_kcwnva.png",
@@ -38,6 +38,7 @@ public class URLConstants {
             DOCUMENTATION_LOGO="images/iconsecond.png",
             EMI_LOGO="images/iconthird.png",
             REGISTER_URL="./Register.jsp",
-            REGISTER_SERVLET="/RegisterUser",
-            SUCCESS_REGISTERATION="./AdminRegistered.jsp";
+            REGISTER_SERVLET="RegisterUser",
+            SUCCESS_REGISTERATION="./AdminRegistered.jsp",
+            FORM_SUBMITTED="./FormSubmitted.jsp";
 }

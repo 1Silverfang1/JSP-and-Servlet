@@ -1,5 +1,6 @@
 package Servlet;
 
+import Encryption.bcrypt;
 import OrmEntity.AdminTable;
 
 import javax.persistence.EntityManager;
@@ -30,15 +31,15 @@ public class LoginForm extends HttpServlet {
         entityManager.getTransaction().begin();
         AdminTable adminTable = entityManager.find(AdminTable.class, name);
         if (adminTable == null) {
-//            httpServletRequest.setAttribute(ERROR_ATTRIBUTE,ERROR_MESSAGE);
-//            RequestDispatcher requestDispatcher= httpServletRequest.getRequestDispatcher(LOGIN_PAGE_URL);
-//            requestDispatcher.forward(httpServletRequest,httpServletResponse);
-            httpServletResponse.sendRedirect("./Register.jsp");
+           RequestDispatcher requestDispatcher= httpServletRequest.getRequestDispatcher(REGISTER_URL);
+           requestDispatcher.forward(httpServletRequest,httpServletResponse);
         } else {
             String Administrator = adminTable.getUsername();
             String Password = adminTable.getPassword();
             String MailAddress= adminTable.getEmail();
-            if(Administrator.equals(name)&&Password.equals(password)&&MailAddress.equals(email))
+            bcrypt decrypt= new bcrypt();
+            if(decrypt.decryptHashedPassword(password,Password))
+            if(Administrator.equals(name)&&MailAddress.equals(email))
             {
                 HttpSession session = httpServletRequest.getSession();
                 session.setAttribute(SESSION_ID_ATTRIBUTE, session.getId());

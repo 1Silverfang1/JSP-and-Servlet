@@ -15,7 +15,7 @@
 <%
     response.setHeader(NO_CACHE,CACHE_CONTROL);
     if(session.getAttribute(SESSION_ID_ATTRIBUTE)==null|| session.getAttribute(ADMIN_ATTRIBUTE)==null) {
-        response.sendRedirect(LOGIN_PAGE_URL);
+        response.sendRedirect(LOGIN_PAGE);
     }
 %>
 <br><br><br>
@@ -24,10 +24,10 @@
 <div class="container justify-content-center">
 <table BORDER="1" class="table table-dark text-center">
     <TR>
-        <TH>name</TH>
-        <TH>mobile</TH>
-        <TH>email</TH>
-        <TH>message</TH>
+        <TH>Name</TH>
+        <TH>Mobile</TH>
+        <TH>Email</TH>
+        <TH>Message</TH>
     </TR>
     <%
         List<ContactForm> resultList= (List<ContactForm>) request.getSession().getAttribute(FORM_RESULT);
