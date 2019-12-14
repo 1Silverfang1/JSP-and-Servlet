@@ -21,8 +21,8 @@
 <br><br><br>
 <h3 class="text-center text-primary">Here is the Data</h3>
 <hr>
-<div>
-<table BORDER="1" class="table table-dark">
+<div class="container justify-content-center">
+<table BORDER="1" class="table table-dark text-center">
     <TR>
         <TH>name</TH>
         <TH>mobile</TH>

@@ -30,9 +30,10 @@ public class LoginForm extends HttpServlet {
         entityManager.getTransaction().begin();
         AdminTable adminTable = entityManager.find(AdminTable.class, name);
         if (adminTable == null) {
-            httpServletRequest.setAttribute(ERROR_ATTRIBUTE,ERROR_MESSAGE);
-            RequestDispatcher requestDispatcher= httpServletRequest.getRequestDispatcher(LOGIN_PAGE_URL);
-            requestDispatcher.forward(httpServletRequest,httpServletResponse);
+//            httpServletRequest.setAttribute(ERROR_ATTRIBUTE,ERROR_MESSAGE);
+//            RequestDispatcher requestDispatcher= httpServletRequest.getRequestDispatcher(LOGIN_PAGE_URL);
+//            requestDispatcher.forward(httpServletRequest,httpServletResponse);
+            httpServletResponse.sendRedirect("./Register.jsp");
         } else {
             String Administrator = adminTable.getUsername();
             String Password = adminTable.getPassword();

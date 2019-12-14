@@ -36,5 +36,8 @@ public class URLConstants {
             BADGE_LOGO="./frenzzy_files/badge_small.png",
             LAYOUT_LOGIN_PAGE="/ServletAndJava_war_exploded/LoginPage.jsp",
             DOCUMENTATION_LOGO="images/iconsecond.png",
-            EMI_LOGO="images/iconthird.png";
+            EMI_LOGO="images/iconthird.png",
+            REGISTER_URL="./Register.jsp",
+            REGISTER_SERVLET="/RegisterUser",
+            SUCCESS_REGISTERATION="./AdminRegistered.jsp";
 }

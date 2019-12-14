@@ -34,20 +34,10 @@
                 </form>
             </li>
             <%}%>
-
-
-
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    INVEST
+            <li class="nav-item ">
+                <a class="nav-link text-primary " href="<%=REGISTER_URL%>">
+                    REGISTER NOW
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Invest Now</a>
-                    <a class="dropdown-item" href="#">Invest Later</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Invest Never</a>
-                </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link " id ="Apply" href=<%=CONTACT_US_PAGE%> tabindex="-1">CONTACT US</a>

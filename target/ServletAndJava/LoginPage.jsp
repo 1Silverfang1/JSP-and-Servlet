@@ -27,6 +27,11 @@
             }
                  request.removeAttribute(ERROR_ATTRIBUTE);
         %></p></span>
+        <%
+            if(session.getAttribute(ADMIN_ATTRIBUTE)!=null) {
+                response.sendRedirect(ADMIN_PAGE);
+            }
+        %>
         <form action= "<%=LOGIN_PAGE%>" class="text-center loginForm" method="<%=POST_METHOD%>">
             <p class="text-left text-primary">Your  Username</p>
             <input type="text" required autocomplete="off" placeholder="Enter your Username" id="UsernameField" name="Username">
