@@ -1,0 +1,169 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#background
+{
+    width: 100%;
+}
+#imagebg
+{
+    width: 100%;
+}
+.mobileImage
+{
+    display: none;
+}
+.footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.loginFormDivm
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.loginForm
+{
+    width: 100%;
+}
+body
+{
+    height: 100%;
+}
+.FinzyWorks
+{
+    width: 95%;
+    margin-left: 3%;
+}
+.desktopImage
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    text-align: center;
+}
+.desktopImages
+{
+    width: 100%;
+}
+.fixnavbar
+{
+    position: fixed;
+}
+.circlebg
+{
+    border-radius: 50%;
+    background: lightblue;
+    height: 150px;
+    width: 150px;
+}
+.cards
+{
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+.required:after { content:" *"; }
+body
+{
+    font-size: 14px;
+    font-family: Lato,sans-serif;
+    font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+}
+#badge-small-image
+{
+    width: 50px;
+    position: relative;
+    cursor: pointer;font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    box-sizing: border-box;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+element {
+    display: inline-block;
+}
+#iconSection
+{
+    padding-left: 15%;
+padding-right: 15%;
+width: 100%;
+float: left;
+}
+#brand-suffix-header {
+    font-size: 19px;
+    cursor: pointer;
+    line-height: 1.42857143;
+    color: #333;
+}
+#firstHeadingText
+{
+    color: #4a4a4a;
+letter-spacing: 1.4px;
+padding-bottom: 105px;
+font-size: 16px;
+padding-top: 35px;
+font-family: Lato,sans-serif;
+margin-top: 10px;
+}
+#brand-suffix-sub{
+    font-size: 10px;
+    position: relative;
+    bottom: 7px;
+    cursor: pointer;
+    line-height: 1.42857143;
+color: #333;
+}
+#firstHeading
+{
+    color: #0d3ab3;
+font-size: 30px;
+font-weight: 700;
+margin: 0 0 10px;
+font-family: Lato;
+}
+#collapse
+{
+    background: #0d3ab3;
+}
+#Apply
+{
+    font-size: 12px;
+letter-spacing: 1.05px;
+color: #fff;
+background-color: #0d3ab3;
+border: 1px solid #0d3ab3;
+padding: 7px 10px;
+margin-top: -10px;
+margin-bottom: 0;
+border-radius: 7px;
+line-height: 20px;
+margin-top: 2px;
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)
+{
+    .mobileImage
+    {
+        display: block;
+    }
+    .desktopImages
+    {
+        display: none;
+    }
+}

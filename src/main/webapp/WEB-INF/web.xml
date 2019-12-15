@@ -4,4 +4,70 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+    <servlet-name>ContactUs</servlet-name>
+    <servlet-class>Servlet.FormSubmit</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>Servlet.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>Servlet.LoginForm</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>getContactData</servlet-name>
+    <servlet-class>Servlet.FormRetrieve</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminPage</servlet-name>
+    <jsp-file>/WEB-INF/Views/admin.jsp</jsp-file>
+  </servlet>
+  <servlet>
+    <servlet-name>HomePage</servlet-name>
+    <jsp-file>/WEB-INF/Views/index.jsp</jsp-file>
+  </servlet>
+  <servlet>
+    <servlet-name>FormSubmitted</servlet-name>
+    <jsp-file>/WEB-INF/Views/FormSubmitted.jsp</jsp-file>
+  </servlet>
+    <servlet>
+        <servlet-name>AdminRegister</servlet-name>
+        <servlet-class>Servlet.RegisterAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminRegister</servlet-name>
+        <url-pattern>/RegisterUser</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminPage</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FormSubmitted</servlet-name>
+    <url-pattern>/formSubmitted</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HomePage</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getContactData</servlet-name>
+    <url-pattern>/getData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContactUs</servlet-name>
+    <url-pattern>/ContactForm</url-pattern>
+  </servlet-mapping>
+
 </web-app>

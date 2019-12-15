@@ -1,0 +1,40 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 15px;
+    padding: 0;
+}
+#UsernameField,#EmailField,#PasswordField
+{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+}
+.submitButton
+{
+    color: #4cae4c;
+    text-align: center;
+}
+#badge-small-image
+{
+    width: 50px;
+    position: relative;
+    cursor: pointer;font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    box-sizing: border-box;
+}
+.loginFormDiv
+ {
+     margin-left:auto;
+     margin-right: auto;
+     width: 30%;
+ }
+.submitButton
+{
+    width: 100%;
+    text-align: center;
+}

@@ -2,17 +2,246 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ServletAndJava:war" />
       <artifact name="ServletAndJava:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98e2a6df-5902-439f-81cf-f4d543c96f6f" name="Default Changelist" comment="" />
+    <list default="true" id="98e2a6df-5902-439f-81cf-f4d543c96f6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/root.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Constants/URLConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Constants/URLConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/FormSubmit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/FormSubmit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/RegisterAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/RegisterAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AdminRegistered.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Views/AdminRegistered.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/ContactUs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/CSS/ContactUs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/LoginPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/CSS/LoginPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/CSS/Register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/RetrieveData.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/CSS/RetrieveData.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/CSS/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/landingpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/CSS/landingpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/sucess.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/CSS/sucess.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ContactUs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Views/ContactUs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/FormSubmitted.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/Views/FormSubmitted.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/LayoutTemplates/LayoutFooter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/LayoutTemplates/LayoutFooter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/LayoutTemplates/LayoutHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/LayoutTemplates/LayoutHeader.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/LoginPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Views/LoginPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Views/Register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/RetrieveData.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Views/RetrieveData.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Views/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/257926351368339" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/257926351368339" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/Group_22.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/Group_22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/Group_28_mxygt4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/Group_28_mxygt4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/Group_29_y89deb.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/Group_29_y89deb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/a" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/abhinandan_aukpdl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/abhinandan_aukpdl.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/amit_ihskhe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/amit_ihskhe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/analytics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/apoorv_mt9lo0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/apoorv_mt9lo0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/ba_pshedr.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/ba_pshedr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/background.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/background.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/badge_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/badge_small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/bikram-chatterjee.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/bikram-chatterjee.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/borrower_2div_ghvugv.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/borrower_2div_ghvugv.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/borrowermid_fuyhtd.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/borrowermid_fuyhtd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/box-b736908ce6b0e933fad3a2e45df61b38.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/box-b736908ce6b0e933fad3a2e45df61b38.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/bw-ci-world_dfcyk3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/bw-ci-world_dfcyk3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/conversion_async.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/conversion_async.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/css_002.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/css_002.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/design-awards-2019-finalist-badge-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/design-awards-2019-finalist-badge-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/dipp.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/dipp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/dlai.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/dlai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/economic-times_msl8fl.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/economic-times_msl8fl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/fb-pixel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/fb-pixel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/fbevents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/fbevents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/finzy_rbi_badge.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/finzy_rbi_badge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/google-analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/google-analytics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/google-tag-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/google-tag-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/gptw-certified-png-hi-res-sep-19-aug-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/gptw-certified-png-hi-res-sep-19-aug-20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/group-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/group-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/group-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/group-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/group.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/group.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/gtm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/gtm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/hammer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/hammer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/hotjar-523247.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/hotjar-523247.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/iamai.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/iamai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/indian-express_skrqdd.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/indian-express_skrqdd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/jspdf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/jspdf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/jspdf_002.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/jspdf_002.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/l-giri-naidu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/l-giri-naidu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/logoWeb1x_1_thzngg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/logoWeb1x_1_thzngg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/modules.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/modules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/nasscom.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/nasscom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/nbfc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/nbfc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/oulook-money.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/oulook-money.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/p2p-lending.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/p2p-lending.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/polyfills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/polyfills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/tech-herald_bnpn3o.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/tech-herald_bnpn3o.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/times-of-india_iarzlk.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/times-of-india_iarzlk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/uma-maheshwari.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/uma-maheshwari.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/vishwas_ztkchg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/vishwas_ztkchg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/frenzzy_files/your-story_kcwnva.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/frenzzy_files/your-story_kcwnva.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/iconfirst.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/images/iconfirst.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/iconsecond.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/images/iconsecond.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/iconthird.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/images/iconthird.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/success.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/images/success.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/warning.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/images/warning.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/images/warning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/warningg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/images/warningg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/AdminRegistered.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/Views/AdminRegistered.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/CSS/ContactUs.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/CSS/ContactUs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/CSS/LoginPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/CSS/LoginPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/CSS/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/CSS/Register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/CSS/RetrieveData.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/CSS/RetrieveData.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/CSS/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/CSS/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/CSS/landingpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/CSS/landingpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/CSS/sucess.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/CSS/sucess.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/ContactUs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/Views/ContactUs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/FormSubmitted.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Views/FormSubmitted.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/LayoutTemplates/LayoutFooter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/LayoutTemplates/LayoutFooter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/LayoutTemplates/LayoutHeader.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/LayoutTemplates/LayoutHeader.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/LoginPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/Views/LoginPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/Register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/Views/Register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/RetrieveData.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/Views/RetrieveData.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/Constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/Constants/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/Constants/URLConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/Constants/URLConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/META-INF/ServletAndJava.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/Servlet/FormSubmit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/Servlet/FormSubmit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/Servlet/LoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/Servlet/LoginForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/Servlet/RegisterAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/classes/Servlet/RegisterAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/Views/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/257926351368339" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/257926351368339" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/Group_22.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/Group_22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/Group_28_mxygt4.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/Group_28_mxygt4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/Group_29_y89deb.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/Group_29_y89deb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/a" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/abhinandan_aukpdl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/abhinandan_aukpdl.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/amit_ihskhe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/amit_ihskhe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/analytics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/apoorv_mt9lo0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/apoorv_mt9lo0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/ba_pshedr.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/ba_pshedr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/background.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/background.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/badge_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/badge_small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/bikram-chatterjee.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/bikram-chatterjee.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/borrower_2div_ghvugv.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/borrower_2div_ghvugv.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/borrowermid_fuyhtd.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/borrowermid_fuyhtd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/box-b736908ce6b0e933fad3a2e45df61b38.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/box-b736908ce6b0e933fad3a2e45df61b38.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/bw-ci-world_dfcyk3.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/bw-ci-world_dfcyk3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/conversion_async.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/conversion_async.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/css_002.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/css_002.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/design-awards-2019-finalist-badge-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/design-awards-2019-finalist-badge-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/dipp.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/dipp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/dlai.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/dlai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/economic-times_msl8fl.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/economic-times_msl8fl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/fb-pixel.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/fb-pixel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/fbevents.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/fbevents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/finzy_rbi_badge.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/finzy_rbi_badge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/google-analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/google-analytics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/google-tag-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/google-tag-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/gptw-certified-png-hi-res-sep-19-aug-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/gptw-certified-png-hi-res-sep-19-aug-20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/group-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/group-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/group-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/group-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/group.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/group.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/gtm.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/gtm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/hammer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/hammer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/hotjar-523247.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/hotjar-523247.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/iamai.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/iamai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/indian-express_skrqdd.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/indian-express_skrqdd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/jspdf.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/jspdf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/jspdf_002.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/jspdf_002.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/l-giri-naidu.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/l-giri-naidu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/logoWeb1x_1_thzngg.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/logoWeb1x_1_thzngg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/modules.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/modules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/nasscom.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/nasscom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/nbfc.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/nbfc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/oulook-money.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/oulook-money.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/p2p-lending.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/p2p-lending.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/polyfills.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/polyfills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/tech-herald_bnpn3o.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/tech-herald_bnpn3o.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/times-of-india_iarzlk.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/times-of-india_iarzlk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/uma-maheshwari.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/uma-maheshwari.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/vishwas_ztkchg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/vishwas_ztkchg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/frenzzy_files/your-story_kcwnva.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/frenzzy_files/your-story_kcwnva.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/images/iconfirst.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/images/iconfirst.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/images/iconsecond.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/images/iconsecond.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/images/iconthird.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/images/iconthird.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/images/success.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/images/success.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/images/warning.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/images/warning.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/images/warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/images/warning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/images/warningg.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/resource/images/warningg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ServletAndJava/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletAndJava/WEB-INF/Views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Constants/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Constants/URLConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Constants/URLConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ServletAndJava.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/FormSubmit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/FormSubmit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/LoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/LoginForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/RegisterAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/RegisterAdmin.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="CSS File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -29,14 +258,35 @@
     </option>
   </component>
   <component name="ProjectId" id="1UmCohvTWjP5IhGVUmgii2WiwLG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/webapp" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/webapp" />
+      <recent name="$PROJECT_DIR$/target/ServletAndJava/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resource" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/Views" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/LayoutTemplates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -127,6 +377,26 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3b8ee800" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3b8ee800" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@67cee62d" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -137,11 +407,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575952559418</updated>
-      <workItem from="1575952563417" duration="335000" />
+      <workItem from="1575952563417" duration="25903000" />
+      <workItem from="1576038619272" duration="12027000" />
+      <workItem from="1576123933091" duration="8294000" />
+      <workItem from="1576202025663" duration="5620000" />
+      <workItem from="1576210004042" duration="15569000" />
+      <workItem from="1576255315386" duration="11400000" />
+      <workItem from="1576297545279" duration="6783000" />
+      <workItem from="1576405690071" duration="4008000" />
+      <workItem from="1576409857352" duration="6708000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
