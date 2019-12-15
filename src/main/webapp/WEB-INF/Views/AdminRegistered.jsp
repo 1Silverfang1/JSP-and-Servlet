@@ -17,9 +17,9 @@
             response.sendRedirect(REGISTER_URL);
         }
     %>
-    <img src="images/success.jpg" class= "warning" alt="">
-    <h2 class="text-center text-success"> You Have Successfully Submitted the form</h2>
-    <p class="text-center text-success">We are thankful for your time and will be reaching out to you soon</p>
+    <img src=<%=FORM_SUBMITTED_IMG%> alt="Success">
+    <h2 class="text-center text-success">New Admin Account Successfully Created</h2>
+    <p class="text-center text-success">Start Exploring the new Possibilities by Logging In</p>
     <br><br><br><br>
     <hr>
 </div>

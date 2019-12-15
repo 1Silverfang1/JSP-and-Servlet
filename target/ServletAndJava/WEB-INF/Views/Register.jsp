@@ -5,11 +5,11 @@
     <title>Registration</title>
 </head>
 <link rel="stylesheet" href= <%=BOOTSTRAP_CSS%>>
-<link rel="stylesheet" href="CSS/Register.css">
+<link rel="stylesheet" href=<%=REGISTER_CSS%>>
 <body class="bg-light" >
 <jsp:include page="<%=HEADER_FILE%>"></jsp:include>
 <br><br><br><br><br>
-<form action="RegisterUser" method="post" class="mt-5 mx-auto w-50  ">
+<form action=<%=REGISTER_SERVLET%> method="post" class="mt-5 mx-auto w-50  ">
     <%
         if(request.getAttribute("RegisterMessage")!=null)
         {

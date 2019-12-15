@@ -17,11 +17,11 @@
 </head>
 <body>
 <div>
-    <jsp:include page="<%=HEADER_FILE%>"></jsp:include>
-    <br>
+<jsp:include page='/WEB-INF/LayoutTemplates/LayoutHeader.jsp'></jsp:include>
+        <br>
     <section>
         <div id ="background" class="mt-5">
-            <img id="imagebg" src=<%=BACKGROUND_IMG_SRC%>>
+            <img id="imagebg" src='/ServletAndJava_war_exploded/resource/frenzzy_files/background.jpeg'>
         </div>
     </section>
     <br>
@@ -52,7 +52,7 @@
      <p class="text-center mt-5">finzy makes entire borrowing process simple and user friendly</p>
       <p class="text-center">You can get your loan funded in as little as 48 hours </p>
      <br><br><br>
-     <div class="text-center mt-5"><img class="desktopImages" src=<%=DESKTOP_BG_IMG%>><img class="mx-auto mobileImage" src=<%=MOBILE_BG_IMG%>>
+     <div class="text-center desktopImage mt-5"><img class="desktopImages" src=<%=DESKTOP_BG_IMG%>><img class="mx-auto mobileImage" src=<%=MOBILE_BG_IMG%>>
      </div>
      </section>
 
@@ -131,6 +131,6 @@
             <br>However, the RBI does not accept any responsibility or guarantee about the present position as to the financial soundness of the company or for the correctness <br> any of the statements or representations made or opinions expressed by the company and for repayment of deposits / discharge of liabilities by the company. </p>
     </section>
 <br><br><br><br>
-<jsp:include page="<%=FOOTER_FILE%>"></jsp:include>
+<jsp:include page='/WEB-INF/LayoutTemplates/LayoutFooter.jsp'></jsp:include>
 </body>
 </html>

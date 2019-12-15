@@ -17,7 +17,6 @@ import java.io.IOException;
 import static Constants.Constants.*;
 import static Constants.Constants.FEEDBACK;
 import static Constants.URLConstants.*;
-@WebServlet("/RegisterUser")
 public class RegisterAdmin extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

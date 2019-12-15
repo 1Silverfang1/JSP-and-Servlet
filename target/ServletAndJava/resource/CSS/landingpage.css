@@ -44,9 +44,14 @@ body
 }
 .desktopImage
 {
-         margin-left: auto;
-         width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
     text-align: center;
+}
+.desktopImages
+{
+    width: 100%;
 }
 .fixnavbar
 {

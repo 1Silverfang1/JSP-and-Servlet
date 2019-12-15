@@ -13,6 +13,7 @@ public  static final String
             LOGOUT_USER="Logout",
             SESSION_ID_ATTRIBUTE="SessionId",
             NAME="Name",
+            FORM_ATTRIBUTE="Form",
             USER_EXIST="User Already Exist Please Login",
             REGISTER_MESSAGE="RegisterMessage",
             MOBILE_NUMBER="Mobile",

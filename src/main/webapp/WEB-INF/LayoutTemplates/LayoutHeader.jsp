@@ -4,7 +4,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-blue bg-white">
     <a class="navbar-brand" href=<%=LAYOUT_INDEX_PATH%>><img src=<%=NAV_LOGO%> al>
     </a>
-    <img id="badge-small-image" src=<%=BADGE_LOGO%>>
+    <img id="badge-small-image" src="<%=BADGE_LOGO%>">
     <span style="display:inline-block"><span id="brand-suffix-header">NBFC-P2P</span>
           <br>
           <span  id="brand-suffix-sub">Registered with RBI</span></span>

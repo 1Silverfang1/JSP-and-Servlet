@@ -12,13 +12,13 @@
 <br><br><br><br><br><br><br><br>
 <div class="text-center">
     <%
-        if(request.getSession().getAttribute("Form")==null) {
+        if(request.getSession().getAttribute(FORM_ATTRIBUTE)==null) {
             response.sendRedirect(SUBMIT_FEEDBACK);
         }
-        request.getSession().removeAttribute("Form");
+        request.getSession().removeAttribute(FORM_ATTRIBUTE);
     %>
 
-<img src="images/success.jpg" class= "warning" alt="">
+<img src=<%=FORM_SUBMITTED_IMG%> alt="Success">
 <h2 class="text-center text-success"> You Have Successfully Submitted the form</h2>
 <p class="text-center text-success">We are thankful for your time and will be reaching out to you soon</p>
 <br><br><br><br>

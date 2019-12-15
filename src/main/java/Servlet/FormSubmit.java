@@ -41,8 +41,9 @@ public class FormSubmit extends HttpServlet {
             entityManagerFactory.close();
             entityManager.close();
             request.getSession().setAttribute("Form", "Submitted");
-            RequestDispatcher requestDispatcher = request.getRequestDispatcher(FORM_SUBMITTED);
-            requestDispatcher.forward(request, response);
+            response.sendRedirect("formSubmitted");
+//            RequestDispatcher requestDispatcher = request.getRequestDispatcher(FORM_SUBMITTED);
+//            requestDispatcher.forward(request, response);
         }
 }
 

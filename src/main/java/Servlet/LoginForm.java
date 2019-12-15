@@ -44,7 +44,7 @@ public class LoginForm extends HttpServlet {
                 HttpSession session = httpServletRequest.getSession();
                 session.setAttribute(SESSION_ID_ATTRIBUTE, session.getId());
                 session.setAttribute(ADMIN_ATTRIBUTE,Administrator);
-                httpServletResponse.sendRedirect(ADMIN_PAGE);
+                httpServletResponse.sendRedirect("admin");
             }
                 else
                     {
